@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Rakam"
 title_separator          : "-"
-name                     : "Burak Emre Kabakcı"
+name                     : "Rakam Analytics"
 description              : "Rakam Analytics Blog"
 url                      : #https://rakam.io
 baseurl                  : #/blog
