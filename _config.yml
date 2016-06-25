@@ -11,16 +11,16 @@ title                    : "Rakam"
 title_separator          : "-"
 name                     : "Rakam Analytics"
 description              : "Rakam Analytics Blog"
-url                      : https://rakam.io
-baseurl                  : /blog
-gh_repo                  : https://github.com/rakam-io/rakam-io.github.io
+url                      : "https://rakam.io"
+baseurl                  : "/blog"
+gh_repo                  : "https://github.com/rakam-io/rakam-io.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : disqus
+  provider               : "disqus"
   disqus:
-    shortname            : rakam
+    shortname            : "rakam"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -30,31 +30,31 @@ comments:
     colorscheme          : # "light" (default), "dark"
 
 # SEO Related
-google_site_verification : ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q
+google_site_verification : "ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : rakam_io
+  username               : "rakam_io"
 facebook:
-  username               : rakamio
+  username               : "rakamio"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : Organization
-  name                   : Rakam Analytics
+  type                   : "Organization"
+  name                   : "Rakam Analytics"
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : google
+  provider               : "google"
   google:
-    tracking_id          : UA-49520110-1
+    tracking_id          : "UA-49520110-1"
 
 # Google AdSense
 google_ad_client         :
@@ -67,15 +67,15 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "Dev"
   location         : "Istanbul"
-  email            : emrekabakci@gmail.com
-  uri              : http://buremba.com
+  email            : "emrekabakci@gmail.com"
+  uri              : "http://buremba.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/buremba
+  github           : "https://github.com/buremba"
   google_plus      :
   keybase          :
   instagram        :
