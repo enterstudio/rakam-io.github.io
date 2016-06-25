@@ -13,7 +13,7 @@ name                     : "Rakam Analytics"
 description              : "Rakam Analytics Blog"
 url                      : "https://rakam.io"
 baseurl                  : "/blog"
-gh_repo                  :
+gh_repo                  : https://github.com/rakam-io/rakam-io.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
