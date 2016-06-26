@@ -11,8 +11,8 @@ title                    : "Rakam"
 title_separator          : "-"
 name                     : "Rakam Analytics"
 description              : "Rakam Analytics Blog"
-url                      : "https://rakam.io"
-baseurl                  : "/blog"
+url                      : #"https://blog.rakam.io"
+baseurl                  : #"/"
 gh_repo                  : "https://github.com/rakam-io/rakam-io.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -209,8 +209,8 @@ compress_html:
     
 prose:
   rooturl: '_posts'
-  siteurl: 'https://rakam.io/blog'
-  relativeLinks: 'https://rakam.io/blog/links.jsonp'
+  siteurl: 'https://blog.rakam.io'
+  relativeLinks: 'https://blog.rakam.io/links.jsonp'
   media: 'media'
   ignore:
     - index.md
