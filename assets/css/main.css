@@ -1354,12 +1354,12 @@ tr,td,th {
     text-align: center;
     text-decoration: none;
     color: #9ba1a6;
-    border: 1px solid #bdc1c4;
-    border-radius: 4px
+    border: 1px solid rgba(189, 193, 196, 0.15);
+    border-radius: 4px;
 }
 
 .pagination--pager:hover {
-    color: #3e8296
+    color: #fff;
 }
 
 .pagination--pager:first-child {
@@ -1374,15 +1374,16 @@ tr,td,th {
 }
 
 .pagination--pager.disabled {
-    color: #bdc1c4;
+    color: rgba(255, 255, 255, 0.21);
     pointer-events: none;
-    cursor: not-allowed
+    cursor: not-allowed;
 }
 
 .page__content+.pagination,.page__meta+.pagination,.page__share+.pagination,.page__comments+.pagination {
     margin-top: 2em;
     padding-top: 2em;
-    border-top: 1px solid #f2f3f3
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.04);
 }
 
 .greedy-nav {
@@ -2364,7 +2365,6 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .page__content h2 {
     padding-bottom: 0.5em;
     box-shadow: 0 1px rgba(255, 255, 255, 0.05);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .page__content p,.page__content li,.page__content dl {
@@ -2586,7 +2586,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .page__comments-title {
-    margin-top: 2rem;
+    margin-top: 0;
     margin-bottom: 10px;
     padding-top: 2rem;
     font-size: 0.75em;
@@ -2596,11 +2596,11 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .page__related {
-    margin-top: 2em;
-    padding-top: 1em;
-    border-top: 1px solid #f2f3f3;
+    /* margin-top: 2em; */
+    /* padding-top: 1em; */
+    /* border-top: 1px solid #f2f3f3; */
     clear: both;
-    float: left
+    float: left;
 }
 
 .page__related::after {
@@ -2611,7 +2611,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 @media (min-width: 64em) {
     .page__related {
-        margin-left:21.18644%
+        /* margin-left: 4.18644%; */
     }
 }
 
@@ -2642,9 +2642,9 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 @media (min-width: 64em) {
     .archive {
         width:83.05085%;
-        float: right;
+        float: left; 
         margin-right: 0;
-        padding-left: 4.23729%
+        padding-left: 4.03729%;
     }
 }
 
