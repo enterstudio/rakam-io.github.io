@@ -1,13 +1,15 @@
 ---
+title: Hello World!
+date: '2016-06-25 00:00:00'
 layout: single
 published: true
 categories:
-    - web
+- web
 comments: true
 read_time: true
 related: true
 tags:
-    - test
+- test
 ---
 ## A New Post
 
